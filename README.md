@@ -9,7 +9,7 @@ so we can import mysql connection to tornado ioloop.
 
 eg:
 
-we extends the default Connection to create a asynchronous EPollConnection
+we extends the default Connection to create an asynchronous EPollConnection
 
     from tornado import ioloop
     from functools import partial
